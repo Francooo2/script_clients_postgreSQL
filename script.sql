@@ -14,7 +14,7 @@ CREATE DATABASE unidad2;
 
 -- Lo que finalmente carga en la base de datos lo suministrado por el apoyo
 
-**********************************************************************************************************************************************************************************
+
 
 -- 2) Primera transacción mediante SQL Shell (psql)
 
@@ -39,7 +39,7 @@ SELECT stock FROM producto WHERE id = 9;
 
 -- De esta manera, se verifica que la transacción fue exitosa
 
-**********************************************************************************************************************************************************************************
+
 
 -- 3) Segunda transacción mediante SQL Shell (psql)
 BEGIN TRANSACTION;
@@ -66,7 +66,7 @@ SELECT stock FROM producto WHERE id = 8;
 
 -- De esta manera, se verifica que la transacción fue exitosa para la venta de los productos 1 y 2, ya que tenian stock suficiente, mientras que la venta del producto 8 no pudo ser concretada por falta de stock
 
-**********************************************************************************************************************************************************************************
+
 
 -- 4) Realizar las sigientes consultas
 
